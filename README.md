@@ -19,10 +19,6 @@ Scripts to run network performance tests using iperf 2
 
 sh runIPerf2Test.sh
 
-## Documentation
-
-## Releases & Major Branches
-
 ## Contributing
 
 The nsx-performance-testing-scripts project team welcomes contributions from the community. If you wish to contribute code and you have not
