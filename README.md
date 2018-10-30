@@ -1,6 +1,6 @@
 
 
-# nsx-performance-testing-scripts
+# NSX - Performance Testing Scripts
 
 ## Overview
 Scripts to run network performance tests using iperf 2
