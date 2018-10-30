@@ -3,20 +3,21 @@
 # nsx-performance-testing-scripts
 
 ## Overview
+Scripts to run network performance tests using iperf 2
 
 ## Try it out
 
 ### Prerequisites
 
-* Prereq 1
-* Prereq 2
-* Prereq 3
+* Multiple Linux VMs with iPerf 2 installed
+* iPerf 2 server (iperf -s) running on the VMs that will act as iPerf servers 
+* iperf executable should be in PATH
+* Password less SSH access to all the VMs that will be used in the test
+* File "vm.list" in the script directory containing comma seperated list of one iperf client VM and one iperf server VM per line
 
 ### Build & Run
 
-1. Step 1
-2. Step 2
-3. Step 3
+sh runIPerf2Test.sh
 
 ## Documentation
 
@@ -30,3 +31,19 @@ questions about the CLA process, please refer to our [FAQ](https://cla.vmware.co
 refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
+
+NSX - Performance Testing Scripts
+
+Copyright (c) 2018 VMware, Inc.  All rights reserved				
+
+The BSD-2 license (the "License") set forth below applies to all parts of the NSX - Performance Testing Scripts project.  You may not use this file except in compliance with the License.
+
+BSD-2 License 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
