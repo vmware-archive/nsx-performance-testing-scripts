@@ -12,7 +12,7 @@ Scripts to run network performance tests using iperf 2
 * Multiple Linux VMs with iPerf 2 installed
 * iPerf 2 server (iperf -s) running on the VMs that will act as iPerf servers 
 * iperf executable should be in PATH
-* Password less SSH access to all the VMs that will be used in the test
+* Passwordless SSH access to all the VMs that will be used in the test
 * File "vm.list" in the script directory containing comma seperated list of one iperf client VM and one iperf server VM per line
 
 ### Build & Run
