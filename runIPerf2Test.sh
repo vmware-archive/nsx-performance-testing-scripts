@@ -1,4 +1,4 @@
-# Copyright 2016-2019 VMware, Inc.
+# Copyright 2016-2020 VMware, Inc.
 # SPDX-License-Identifier: BSD-2
 
 # The BSD-2 license (the "License") set forth below applies to all parts of the NSX - Performance Testing Scripts project.  
